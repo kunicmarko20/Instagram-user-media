@@ -1,6 +1,8 @@
 # Instagram-user-media
-  Grabs all media and info about every user you add to "username.txt" file.
-  This was part of a project for collecting info from instagram.
+  This was part of a project for collecting info from instagram I worked on last year.
+  <br/><br/>
+  Script grabs all media and info about every user you add to "username.txt" file.
+  <br/>
   <br/>When usernames are added this script can run on cronjob and everytime it runs it will check if there is new media for usernames, if there is no new media, it skips user and goes to next one.
   
   <hr>
