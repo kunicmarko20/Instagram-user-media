@@ -1,6 +1,10 @@
 <?php
 function connect(){
-	return $link = $link = new PDO('mysql:host=localhost;dbname=upwork;charset=utf8mb4', 'root', '');
+	$host = "";
+	$database = "";
+	$username = "";
+	$password = "";
+	return $link = $link = new PDO('mysql:host='.$host.';dbname='.$database.';charset=utf8mb4', $username, $password);
 }
 function check_table($link,$source,$new){
 	$stmt = $link->prepare('Select * from '.$source.' where '.$source.' = :new');
