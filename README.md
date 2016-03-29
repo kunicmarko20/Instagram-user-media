@@ -16,4 +16,4 @@
   If you want to recive email notification when script finished ( if you put it on cronjob ) you can check logs.txt or you can add your email address to username.php on line 7 and remove double slash from line 210 ( before mail command ) and you will recive email notification everytime script finishes.
   <hr>
 <p>If there is any problem with script, contact me and I will help you solve it.</p>
-<p> Website for contact: <a href="http://kunicmarko.ml">Marko Kunic</a></p>
+<p> Website for contact: <a href="http://kunicmarko.ml" title="Marko Kunic">Marko Kunic</a></p>
